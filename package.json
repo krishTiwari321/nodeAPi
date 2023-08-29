@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "type":"module"
+    "type": "module"
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +18,8 @@
     "readline-sync": "^1.4.10"
   },
   "description": "",
-  "type":"module"
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  }
 }
